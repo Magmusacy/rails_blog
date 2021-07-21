@@ -1,10 +1,11 @@
 <h1>Articles</h1>
-<p>Our blog has <% Article.public_count %> articles and counting</p>
+<p>Our blog has <%= Article.public_count %> articles and counting</p>
 <ul>
   <% @articles.each do |art| %>
     <% unless art.archived? %>
-      <li>
-        <%=link_to art.title, art%>
+      <li class="index">
+        <%=link_to art.title, art%><br>
+        <p>Comments: <%= art.comments.size %></p>
       </li>
     <% end %>
   <% end %>
