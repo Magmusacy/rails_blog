@@ -1,0 +1,29 @@
+.comment {
+  border-radius: 2px;
+  background-color: rgb(80, 75, 75);
+  margin: 2px;
+}
+
+.comment p {
+  margin:5px;
+}
+
+#article {
+  background-color: rgb(80, 75, 75);
+  border-top: 2px solid rgb(114, 111, 111);
+  border-bottom: 2px solid rgb(114, 111, 111);
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#article h1 {
+  font-style: italic;
+  margin: 2px;
+}
+
+#article p {
+  margin: 4px;
+  border-radius: 3px;
+  padding: 10px;
+}

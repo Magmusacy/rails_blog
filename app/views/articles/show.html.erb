@@ -8,7 +8,7 @@
                    method: :delete,
                    data: { confirm: "Are you sure?" } %></li>
 </ul>
-
+<p>Posted on: <%= @article.created_at %></p>
 <h2>Comments</h2>
 <%= render @article.comments %>
 
